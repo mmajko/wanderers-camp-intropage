@@ -5,13 +5,42 @@
     <meta charset="utf-8">
     <meta name="title" content="Wanderer's Camp">
     <meta name="description" content="Český Discord server, který má nějakou úroveň.">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&subset=latin-ext" rel="stylesheet">
+    <link href="animations.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.3.2/hint.min.css"></link>
   </head>
   <body>
+    <div class="illustration">
+      <div class="stones stones-back" id="stones-back">
+      </div>
+      <div class="wood">
+        <div class="wood-piece-left"></div>
+        <div class="wood-piece-right"></div>
+      </div>
+      <div class="fire">
+        <div class="fire-parts-back" id="fire-1">
+        </div>
+        <div class="fire-parts-front" id="fire-2">
+        </div>
+      </div>
+      <div class="coal" id="coal">
+      </div>
+      <div class="stones stones-front" id="stones-front">
+      </div>
+    </div>
+
     <h1>Wanderer's Camp</h1>
-    <p class="description">Český Discord server, který má nějakou úroveň.</p>
-    <p class="invite">
-      Připojte se k nám! Jsme malá komorní komunitka fajn lidí.
-      <a href="http://discord.gg/0bEaZKpaBnGZOFPF">Připojit se k discord serveru</a>
-    </p>
+
+    <p class="description">Český <img src="discord-logo.png" class="discord-logo" alt="Discord" height="27"> server, který má vkus.</p>
+
+    <div class="invite">
+      <p>Připojte se k nám! Jsme malá komunitka plná fajn lidí.</p>
+      <p>Právě je <strong id="people">?</strong> lidí online.</p>
+      <div class="people-avatars" id="people-avatars"></div>
+      <a href="http://discord.gg/0bEaZKpaBnGZOFPF" id="invite">Připojit se k discord serveru</a>
+      <p class="link" id="invite-text">http://discord.gg/0bEaZKpaBnGZOFPF</p>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>

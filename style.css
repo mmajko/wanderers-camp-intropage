@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 2em 5em 2em;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 3.5em;
+  margin: 0;
+  line-height: 1;
+}
+
+.description {
+  font-size: 1.25em;
+}
+
+.discord-logo {
+  vertical-align: middle;
+}
+
+.invite p {
+  padding: 0.5em 1em;
+}
+
+.invite a {
+  display: inline-block;
+  background: orange;
+  color: white;
+  text-decoration: none;
+  padding: .7em 1.5em;
+  border-radius: .25em;
+  margin-top: 2em;
+}
+
+.invite .link {
+  font-size: .75em;
+  opacity: .25;
+}
+
+.illustration {
+  width: 25em;
+  height: 25em;
+  margin: auto;
+  margin-top: 5em;
+  position: relative;
+}
+
+.fire {
+  font-size: 3em;
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  animation: firestart 16s ease-in-out;
+  opacity: 0.85;
+  transform-origin: 0% 75%;
+}
+
+.fire-part {
+  border-radius: 50%;
+  position: absolute;
+  animation: wiggle 5s cubic-bezier(0.445, 0.050, 0.550, 0.950) infinite;
+  margin-left: -0.5em;
+}
+
+.fire-parts-back .fire-part {
+  background: orange;
+}
+
+.fire-parts-front {
+  top: 15%;
+  position: relative;
+  font-size: 0.75em;
+  opacity: .5;
+}
+
+.fire-parts-front .fire-part {
+  background: white;
+}
+
+.wood {
+  position: absolute;
+  font-size: 3em;
+  left: 50%;
+  top: 72%;
+}
+
+.wood * {
+  background: #A38655;
+  width: 5em;
+  height: 1em;
+  position: absolute;
+  box-shadow: .15em .15em 0 rgba(0,0,0,.25);
+  left: 0;
+  top: 0;
+  margin-left: -2.5em;
+}
+
+.wood-piece-left {
+  transform: rotate(15deg);
+}
+
+.wood-piece-right {
+  transform: rotate(-15deg);
+}
+
+.stones {
+  position: absolute;
+  width: 60%;
+  height: 8%;
+  margin-left: 22%;
+}
+
+.stones .stone {
+  background: #aaa;
+  border-radius: 50%;
+  box-shadow: .25em .25em 0 rgba(0,0,0,.25);
+  position: absolute;
+}
+
+.stones-back {
+  top: 72%;
+}
+
+.stones-front {
+  bottom: 15%;
+}
+
+.coal-i {
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.coal {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+}
+
+.people-avatars img {
+  width: 2em;
+  border-radius: 50%;
+  margin: 0 .25em;
+}
